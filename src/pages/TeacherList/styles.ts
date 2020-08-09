@@ -15,12 +15,21 @@ const styles =StyleSheet.create({
         color:'#d4c2ff',
         fontFamily: 'Poppins_400Regular',
     },
+    labelPoints:{
+        color:'#000',
+        fontFamily: 'Poppins_400Regular',
+    },
     inputGroup:{
         flexDirection: 'row',
         justifyContent:'space-between',
+        alignItems: 'center',
     },
     inputBlock: {
         width: '48%',
+    },
+    inputBlockPicker: {
+        flexDirection: 'row',
+        justifyContent:'space-between',
     },
     input:{
         height: 54,

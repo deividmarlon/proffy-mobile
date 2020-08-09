@@ -8,6 +8,7 @@ import Favorites from '../pages/Favorites';
 const { Navigator, Screen } = createBottomTabNavigator();
 
 function StudyTabs(){
+
     return(
         <Navigator 
             tabBarOptions={{
@@ -41,6 +42,7 @@ function StudyTabs(){
             <Screen 
                 name="TeacherList" 
                 component={TeacherList}
+                
                 options={{
                     tabBarLabel: 'Proffys',
                     tabBarIcon: ({color,size, focused})=>{
